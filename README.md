@@ -1,1 +1,20 @@
 # beefront
+
+BeeFront é um complemento do [Behave](http://pythonhosted.org/behave/). A ideia deste repo é centralizar steps comuns a vários apps.
+
+A visão de futuro é ter um pacote instalável via pip. Mas, por enquanto, o que temos é um processo um pouco chato, mas que é  feito uma vez apenas :-)
+
+```
+mkdir -p bdd/features/steps
+echo bdd/beefront >> .gitignore
+cd bdd
+git clone github.com/alexgarzao/beefront
+mv beefront/environment.py_base features/environment.py
+mv beefront/behave.ini_base features/behave.ini
+
+echo "Nao esqueca de instalar o behave no seu virtualenv (pip install behave)"
+```
+
+## TODO
+* O script acima pode receber o nome do diretório
+* Poder baixar o script de algum lugar
