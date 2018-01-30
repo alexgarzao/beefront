@@ -12,6 +12,8 @@ cd bdd
 git clone https://github.com/alexgarzao/beefront.git
 mv beefront/environment.py_base features/environment.py
 mv beefront/behave.ini_base behave.ini
+mv beefront/run.sh_base run.sh
+touch sequence.featureset
 
 echo "Nao esqueca de instalar o behave no seu virtualenv (pip install behave)"
 ```
