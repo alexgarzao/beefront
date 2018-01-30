@@ -7,10 +7,11 @@ A visão de futuro é ter um pacote instalável via pip. Mas, por enquanto, o qu
 ```
 mkdir -p bdd/features/steps
 echo bdd/beefront >> .gitignore
+echo behave.ini >> .gitignore
 cd bdd
 git clone https://github.com/alexgarzao/beefront.git
 mv beefront/environment.py_base features/environment.py
-mv beefront/behave.ini_base features/behave.ini
+mv beefront/behave.ini_base behave.ini
 
 echo "Nao esqueca de instalar o behave no seu virtualenv (pip install behave)"
 ```
