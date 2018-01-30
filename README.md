@@ -8,7 +8,7 @@ A visão de futuro é ter um pacote instalável via pip. Mas, por enquanto, o qu
 mkdir -p bdd/features/steps
 echo bdd/beefront >> .gitignore
 cd bdd
-git clone github.com/alexgarzao/beefront
+git clone https://github.com/alexgarzao/beefront.git
 mv beefront/environment.py_base features/environment.py
 mv beefront/behave.ini_base features/behave.ini
 
