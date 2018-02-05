@@ -20,3 +20,6 @@ echo "Nao esqueca de instalar o behave no seu virtualenv (pip install behave)"
 * O script acima pode receber o nome do diretório
 * Poder baixar o script de algum lugar
 * E se fossem 2 coisas separadas: um é o template para usar o projeto, e outro fosse uma lib só com os steps? A lib poderia ser instalada separadamente...
+* Aliás, sendo uma lib, nada impede que tenhamos vários libs genéricas (web, API, Android, iOS, ...), ou mesmo com steps focados em regras de negócio
+* No template de uso, seria mostrado como importar os steps genéricos no environment.py
+
